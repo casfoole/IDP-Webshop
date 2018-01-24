@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.row{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.product{
+    display: inline-block;
+    width: 24%;
+    background-color: grey;
+    height: 380px;
+}
