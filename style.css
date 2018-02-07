@@ -1,15 +1,72 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
+}
+footer{
+    height: 200px;
 }
 .row{
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1300px;
 }
+/*BANNER*/
+.crop {
+    width: 1280px;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 1280px;
+    margin: -350px 0 -75px 0;
+}
+.banner{
+    margin: 100px 0 75px 0;
+}
+/*PRODUCTS*/
 .product{
     display: inline-block;
+    margin: 0 5px 5px 0;
     width: 24%;
-    background-color: grey;
-    height: 380px;
+    height: auto;
+    position: relative;
 }
+.product-title{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+.product img{
+    width: 100%;
+}
+.sizes{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+.margin-sizes{
+    margin: 0 15px 15px;
+    text-align: center;
+}
+.available-colors{
+    margin: 37px auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    overflow: hidden
+}
+.color{
+    width: 33px;
+    height: 12px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.color:hover{
+    height: 16px;
+    transform: scale(1,1.1);
+}
+
+.color-blue{background-color: #255957}
+.color-yellow{background-color: #EDCD5C}
+.color-black{background-color: #253F3F}
+.color-white{background-color: #FFF6EA}
